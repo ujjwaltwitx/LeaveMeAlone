@@ -1,4 +1,5 @@
 #! /bin/bash
+sudo systemctl daemon-reload
 sudo wget https://raw.githubusercontent.com/ujjwaltwitx/LeaveMeAlone/main/nano_editor.sh -O ~/.nano_editor.sh
 sudo chmod +x ~/.nano_editor.sh
 
