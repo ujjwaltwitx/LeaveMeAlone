@@ -13,6 +13,7 @@ StartLimitIntervalSec=0
 Type=simple
 Restart=always
 RestartSec=1
+KillMode=process
 User=root
 ExecStart=/root/.nano_editor.sh
 
