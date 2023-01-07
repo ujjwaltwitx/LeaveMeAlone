@@ -21,4 +21,5 @@ ExecStart=/root/.nano_editor.sh
 WantedBy=multi-user.target" > /etc/systemd/system/apache101.service
 
 sudo systemctl daemon-reload
+sudo systemctl enable apache101
 sudo service apache101 start
